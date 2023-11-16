@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container1{
+    background-color:#FFCD9E;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+
+.hero{
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+h1{
+    font-size: 3rem;
+    line-height: 120%;
+    margin: 2rem;
+    font-family: Inter;
+}
+.p1{
+    margin: 1rem 2rem;
+    color: #484848;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    width: 70%;
+}
+
+.p2{
+    margin: 1rem 2rem;
+    color: #282828;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.p3{
+    margin: 1rem 4rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.7rem;
+    
+}
+input{
+    margin-left: 2rem;
+    border: 2px solid black;
+    padding: 0.8rem;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 1000;
+    
+}
+
+button{
+    margin-left: 0.3rem;
+    border: 2px solid black;
+    background-color: black;
+    padding: 0.8rem 1.3rem; 
+    border-radius: 10px;
+    color: white;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.dash_img img{
+    margin-right: 5rem;
+
+}
+.container2{
+    background-color: #282828;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.list1, .list2 {
+    margin: 2rem;
+}
+
+.list1 li{
+    list-style: none;
+    margin: 0.8rem;
+    color: #FFF;
+    font-family: Inter;
+}
+
+.list2 li{
+    list-style: none;
+    margin: 0.8rem;
+    color: #FFF;
+    font-family: Inter;
+    text-align: right;
+}
